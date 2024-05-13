@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Card Design</title>
+
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
@@ -15,9 +9,6 @@
     transition: 0.3s;
 }
 
-body {
-    background: linear-gradient(to right, rgb(0, 106, 148), green);
-}
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -29,13 +20,12 @@ body {
 .card {
     cursor: pointer;
     text-align: center;
-    background-color: #fff;
-    padding: 30px;
-    width: 250px;
-    height: 350px;
+    background-color: #F5F5EA;
+    padding: 20px;
+    width: 200px;
     border-radius: 20px;
-    margin: 10px;
-    transition: 0.3s;
+    margin: 30px;
+    transition: 1.5s;
 }
 
 .card h3 {
@@ -54,51 +44,44 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
+
 .card:hover p {
     color: #fff;
 }
 
-button {
-    cursor: pointer;
-    padding: 10px 30px;
-    border: none;
-    background-color: #40c4ff;
-    border-radius: 20px;
-    color: #fff;
-    transition: 0.5s;
-}
-button:hover {
-    background-color: #084994;
-    color: #fff;
-}
 .card:hover{
-    background-color: #084994;
+    background-color: #507D59;
 }
 
   </style>
-</head>
-<body>
 	<div class="container">
 		<div class="card">
 			<img width="80" src="https://raw.githubusercontent.com/jsssanchez/contadom/master/images/accounting.png" alt="">
-			<h3>Flutter Development</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quisquam aliquid repudiandae quas ab voluptatibus.</p>
+			<h3>Asesoría Contable y Fiscal</h3>
 		</div>
 		<div class="card">
-			<img width="80" src="https://raw.githubusercontent.com/jsssanchez/contadom/master/images/accounts.png" alt="">
-			<h3>Android Development</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quisquam aliquid repudiandae quas ab voluptatibus.</p>
-		</div>
+			<img width="80" src="https://raw.githubusercontent.com/jsssanchez/contadom/master/images/bank-account.png" alt="">
+      <h3>Declaraciones de Impuestos</h3>
+    </div>
 		<div class="card">
 			<img width="80" src="https://raw.githubusercontent.com/jsssanchez/contadom/master/images/bank.png" alt="">
-			<h3>Laravel Development</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quisquam aliquid repudiandae quas ab voluptatibus.</p>
-		</div>
+      <h3>Constitución de Empresas</h3>
+    </div>
 		<div class="card">
 			<img width="80" src="https://raw.githubusercontent.com/jsssanchez/contadom/master/images/budget.png" alt="">
-			<h3>WordPress Development</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quisquam aliquid repudiandae quas ab voluptatibus.</p>
+      <h3>Igualas Contables</h3>
+    </div>
+    <div class="card">
+			<img width="80" src="https://raw.githubusercontent.com/jsssanchez/contadom/master/images/accounting.png" alt="">
+			<h3>Gestión de Nóminas</h3>
+		</div>		<div class="card">
+			<img width="80" src="https://raw.githubusercontent.com/jsssanchez/contadom/master/images/accounting.png" alt="">
+			<h3>Auditorías Internas</h3>
+		</div>		<div class="card">
+			<img width="80" src="https://raw.githubusercontent.com/jsssanchez/contadom/master/images/accounting.png" alt="">
+			<h3>Planificación Financiera y Presupuestos</h3>
+		</div>		<div class="card">
+			<img width="80" src="https://raw.githubusercontent.com/jsssanchez/contadom/master/images/accounting.png" alt="">
+			<h3>Manejo Oficina Virtual (TSS/DGII)</h3>
 		</div>
 	</div>
-</body>
-</html>
